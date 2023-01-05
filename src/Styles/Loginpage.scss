@@ -1,0 +1,47 @@
+.container {
+  padding-left: 30px;
+
+  .companyName {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  .companylogo {
+    margin-top: 120px;
+  }
+}
+
+.Welcometext {
+  font-family: Avenir next;
+  font-size: 40px;
+  font-weight: 700;
+  font-size: normal;
+  color: #213F7D;
+  font-weight: bold;
+}
+
+.left_side{
+  margin-top: 50px;
+  float: left;
+  height: 300px;
+
+}
+
+.right_side{
+  margin-top: 190px;
+  padding-left:90px;
+  float: right;
+  width: 50%;
+  height: 300px;
+}
+
+.details{
+  font-weight: 400;
+}
+
+.submitButton{
+  width: 560px;
+  color: red;
+  border-style: none;
+  margin-top: 30px;
+}
