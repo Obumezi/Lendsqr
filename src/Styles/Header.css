@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+  color: #fff;
+  padding: 40px;
+}
+
+.left-items,
+.right-items {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.left-items a,
+.right-items a {
+  display: inline-block;
+  padding: 0 20px;
+  color: #213F7D;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 60px;
+}
+
+.left-items a:hover,
+.right-items a:hover {
+  color: #ccc;
+}
+
+.bell {
+  padding-right: 10px;
+}/*# sourceMappingURL=Header.css.map */
