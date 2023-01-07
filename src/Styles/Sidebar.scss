@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+
+@import "../Variables/Variables.scss";
 
 .sidebar {
   width: 283px;
@@ -33,21 +35,29 @@
   }
 }
 
-.sidebar__menu-link{
-    font-family: 'Work Sans', sans-serif;
-    color: #213F7D;
-    font-weight: 400;
-    opacity: 0.6;
-    padding: 10px;
+.sidebar__menu-link {
+  font-family: "Work Sans", sans-serif;
+  color: #213f7d;
+  font-weight: 400;
+  opacity: 0.6;
+  padding: 10px;
 }
 
-.sidebar__title{
-    width: 180px;
-    position: relative;
-    padding-left: 20px;
-    
+.sidebar__title {
+  width: 180px;
+  position: relative;
+  padding-left: 20px;
 }
 
-a:link{
-    text-decoration: none;
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.icons {
+  color: $icon_theme;
+  opacity: 0.6;
 }

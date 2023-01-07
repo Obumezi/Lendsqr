@@ -29,7 +29,7 @@
 
 .sidebar__menu-link {
   font-family: "Work Sans", sans-serif;
-  color: #213F7D;
+  color: #213f7d;
   font-weight: 400;
   opacity: 0.6;
   padding: 10px;
@@ -43,4 +43,13 @@
 
 a:link {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.icons {
+  color: #213F7D;
+  opacity: 0.6;
 }/*# sourceMappingURL=Sidebar.css.map */
