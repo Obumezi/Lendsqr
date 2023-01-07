@@ -1,6 +1,8 @@
 import Loginpage from "./Components/Loginpage";
 import Header from "./Components/Header";
 import './App.scss'
+import Sidebar from "./Components/Sidebar";
+
 
 function App() {
   
@@ -9,6 +11,7 @@ function App() {
     <div className='App'>
       {/* <Loginpage /> */}
       <Header/>
+      
     </div>
   );
 }
