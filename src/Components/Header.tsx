@@ -25,7 +25,7 @@ function Header() {
         </div>
       </nav>
 
-      <Sidebar />
+      {/* <Sidebar /> */}
     </>
   );
 }

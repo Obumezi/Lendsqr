@@ -1,4 +1,4 @@
-
+import '../Styles/Usercards.css'
 import {
     MDBCard,
     MDBCardBody,
@@ -38,6 +38,18 @@ export default function Usercards() {
                     <MDBBtn>Button</MDBBtn>
                 </MDBCardBody>
             </MDBCard>
+            
+
+            <MDBCard style={{ width: '240px' }}>
+                <MDBCardBody>
+                    <MDBCardTitle>Card title</MDBCardTitle>
+                    <MDBCardText>
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </MDBCardText>
+                    <MDBBtn>Button</MDBBtn>
+                </MDBCardBody>
+            </MDBCard>
+            
 
         
 

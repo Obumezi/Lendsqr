@@ -1,3 +1,7 @@
-.card {
-  border: 1px solid blue;
+.cardContainer {
+  display: flex;
+  gap: 30px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
 }/*# sourceMappingURL=Usercards.css.map */
