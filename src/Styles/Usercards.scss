@@ -1,8 +1,35 @@
-.cardContainer{
-  display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+
+@import "../Variables/Variables.scss";
+
+.cardContainer {
+  display:flex;
+ position: absolute;
+ right: 90px;
   gap: 30px;
- align-content: center;
- justify-content: center;
-  margin-top: 50px;
-  
+ 
+  margin-top: 130px;
+  flex-wrap: wrap;
+  padding-top: 30px; 
+}
+
+.count {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #213f7d;
+}
+
+.users {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: #545f7d;
 }

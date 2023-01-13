@@ -5,10 +5,12 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import "bootstrap/dist/css/bootstrap.css";
+import Usercards from './Components/Usercards';
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  
+  </React.StrictMode>
 )

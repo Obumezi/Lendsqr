@@ -1,8 +1,10 @@
 import Loginpage from "./Components/Loginpage";
 import Header from "./Components/Header";
-import './App.scss'
+import './App.css'
 import Sidebar from "./Components/Sidebar";
 import Usercards from "./Components/Usercards";
+import Dashboard from "./Components/Dashboard";
+import Usertable from "./Components/Usertable";
 
 
 
@@ -16,7 +18,8 @@ function App() {
        {/*   <Header/>
         <Sidebar/> */}
 
-        <Usercards />
+     
+      <Dashboard/>
       
     </div>
   );
